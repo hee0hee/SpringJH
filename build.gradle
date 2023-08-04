@@ -22,7 +22,10 @@ repositories {
 }
 
 dependencies {
-	// MySQL 의존성 추가
+
+	// JPA 구현체인 hibernate
+//	implementation 'org.hibernate:hibernate-core:6.1.7.Final'
+	// MySQL
 	implementation 'mysql:mysql-connector-java:8.0.28'
 
 	// JPA 설정
